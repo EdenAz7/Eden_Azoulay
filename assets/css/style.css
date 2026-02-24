@@ -268,3 +268,35 @@ h1, h2, h3, h4, h5, h6 {
     }
     .img-wrap.pl-lg-5 { padding-left: 0 !important;}
 }
+/* =========================================
+   תיקוני RTL (ימין לשמאל) ל-Bootstrap 4
+========================================= */
+
+/* יישור כללי של הטקסט והכיווניות */
+body {
+    direction: rtl;
+    text-align: right !important;
+}
+
+/* סידור הנקודות ברשימות (Bullets) שיופיעו מימין */
+ul {
+    padding-right: 2rem !important;
+    padding-left: 0 !important;
+}
+
+/* תיקון תפריט הניווט (Navbar) - דחיפת הפריטים לשמאל */
+.ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+/* תיקון אייקונים (הפיכת שוליים שמאליים לימניים) */
+.ml-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0 !important;
+}
+
+.pl-2 {
+    padding-right: 0.5rem !important;
+    padding-left: 0 !important;
+}
